@@ -9,9 +9,14 @@ import Button3 from './Button3'; // Update with the correct path
 function App() {
   return (
     <div>
-      <Button1 />
-      <Button2 />
-      <Button3 />
+      <div>
+        <h1>Give My Page a Title</h1>
+      </div>
+      <div>
+        <Button1>Button One</Button1><br /><br />
+        <Button2>Button One</Button2><br /><br />
+        <Button3>Button One</Button3><br />
+      </div>
     </div>
   );
 }

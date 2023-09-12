@@ -7,7 +7,7 @@ function Button3() {
         console.log('Button 3 clicked!');
     };
     return (
-        <button onClick={handleClick}>Step Three</button>
+        <button style={{ width: "100px", height: "50px",}} onClick={handleClick}>Step Three</button>
     );
 }
 

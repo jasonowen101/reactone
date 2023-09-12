@@ -8,7 +8,7 @@ function Button2() {
     };
 
     return (
-        <button onClick={handleClick}>Step 2</button>
+        <button style={{ width: "100px", height: "50px",}} onClick={handleClick}>Step Two</button>
     );
 }
 

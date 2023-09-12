@@ -8,7 +8,7 @@ function Button1() {
         console.log('Button 1 clicked!');
     };
     return (
-        <button onClick={handleClick}>Step One</button>
+        <button style={{ width: "100px", height: "50px",}} onClick={handleClick}>Step One</button>
     );
 }
 
