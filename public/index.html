@@ -2,14 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React App with Buttons</title>
+    <title>React 18 Buttons</title>
 </head>
 <body>
     <div id="root"></div>
-    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
-    <script type="text/babel" src="index.js"></script>
+    <script type="module">
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+
+        // Import your button components
+        import Button1 from './Button1';
+        import Button2 from './Button2';
+        import Button3 from './Button3';
+
+        // Create a React root
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+
+        function App() {
+            return (
+                <div>
+                    <Button1 />
+                    <Button2 />
+                    <Button3 />
+                </div>
+            );
+        }
+
+        // Render the App component inside the root
+        root.render(
+            <React.StrictMode>
+                <App />
+            </React.StrictMode>
+        );
+    </script>
 </body>
 </html>

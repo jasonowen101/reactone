@@ -8,7 +8,7 @@ function Button2() {
     };
 
     return (
-        <button onClick={handleClick}>Step Two</button>
+        <button onClick={handleClick}>Step 2</button>
     );
 }
 
